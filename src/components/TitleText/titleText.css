@@ -1,0 +1,36 @@
+.titleText {
+  min-width: 1280px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.titleText h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 20px;
+  color: #384758;
+  margin-bottom: 47px;
+  margin-top: 64px;
+}
+.titleText div {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #606F81;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1025px) {
+  .titleText {
+    min-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .slider__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    min-width: 870px;
+  }
+}

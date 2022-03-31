@@ -1,0 +1,45 @@
+.card {
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  transition: all 0.2s;
+  cursor: pointer;
+  
+}
+.card img {
+  display: block;
+  width: 290px;
+  height: 320px;
+  position: relative;
+}
+.card div {
+  max-width: 290px;
+  width: fit-content;
+}
+.card__name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #384758;
+}
+.card__company {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #606F81;
+}
+.card-selected .card__image::after {
+  content: '';
+  display: block;
+  width: 100%;
+  max-width: 290px;
+  height: 4px;
+  position: absolute;
+  top: 316px;
+  background-color: #FE8700;
+}
+.card-selected * {
+  color:#FE8700;
+}

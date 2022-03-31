@@ -1,0 +1,25 @@
+.post__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #384758;
+  margin-bottom: 7px;
+}
+
+.post__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #606F81;
+}
+
+@media screen and (max-width: 1025px) {
+  .post__title {
+    font-size: 22px;
+    line-height: 20px;
+  }
+  .post__text {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,39 @@
+.slider {
+
+}
+
+.slider__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  min-width: 1280px;
+}
+
+.slider__content {
+  max-width: 1280px;
+  overflow: hidden;
+  margin: 20px auto 0;
+}
+
+.slider__track {
+  display: flex;
+  gap: 40px;
+  transition: all 0.4s;
+}
+
+@media screen and (max-width: 1025px) {
+  .slider__content {
+    max-width: 950px;
+  }
+  .slider__buttons {
+    min-width: 870px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .slider__content {
+    max-width: 620px;
+  }
+  .slider__buttons {
+    min-width: 620px;
+  }
+}
